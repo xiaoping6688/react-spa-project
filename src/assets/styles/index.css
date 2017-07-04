@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+/*路由切换动画——改变透明度*/
+.fade-enter {
+  opacity: 0;
+  z-index: 10000;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: all 0.4s ease-in;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: all .4s ease-out;
+}
+
+/*路由切换动画——左移动*/
+.slide-left-enter {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  z-index: 10000;
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+.slide-left-enter.slide-left-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.4s ease-out;
+}
+
+.slide-left-leave {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-left-leave.slide-left-leave-active {
+  opacity: 1;
+  transform: translateX(-100%);
+  transition: all 0.4s ease-out;
+}
+
+/*路由切换动画——右移动*/
+.slide-right-enter {
+  transform: translateX(-100%);
+}
+
+.slide-right-enter.slide-right-enter-active {
+  transform: translateX(0);
+  transition: all 0.4s ease-out;
+}
+
+.slide-right-leave {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  z-index: 10000;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-right-leave.slide-right-leave-active {
+  opacity: 1;
+  transform: translateX(100%);
+  transition: all 0.4s ease-out;
+}

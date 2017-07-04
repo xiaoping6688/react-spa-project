@@ -1,0 +1,7 @@
+# /node_modules ignored by default
+
+public/*
+build/*
+mock/*
+config/*
+test/*

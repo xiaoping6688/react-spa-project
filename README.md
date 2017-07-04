@@ -7,9 +7,10 @@
 - redux react-redux redux-trunk（状态管理）
 - react-router4（前端路由，组件异步加载、认证、过渡等）
 - immutable（优化、提升性能）
-- fetch（网络请求）
+- fetch（网络请求封装）
 - antd（基于react的UI组件库）
 - Webpack（工程化、自动构建）
+- [Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension)（支持Redux调试插件，非侵入式）
 
 > * 如果需要实现组件动画效果，推荐使用：[Ant Motion](https://motion.ant.design) 
 > * 如果需要服务端渲染(SSR)，推荐使用：[NEXT](https://github.com/zeit/next.js) 

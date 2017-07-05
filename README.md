@@ -8,7 +8,7 @@
 - react-router4（前端路由，组件异步加载、认证、过渡等）
 - immutable（优化、提升性能）
 - fetch（网络请求封装）
-- antd（基于react的UI组件库）
+- antd（基于react的UI组件库[Ant Design Mobile](https://mobile.ant.design/index-cn)）
 - Webpack（工程化、自动构建）
 - [Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension)（支持Redux调试插件，非侵入式）
 
@@ -21,6 +21,8 @@
 > - [React Router4](https://reacttraining.cn/web/guides/quick-start)
 > - [Redux 中文文档](http://cn.redux.js.org/index.html)
 > - [React 官方文档](https://facebook.github.io/react/docs/hello-world.html)
+
+注：UI尺寸直接使用以750为基准的px(自动转rem)，参见[antd mobile「高清」方案设置](https://github.com/ant-design/ant-design-mobile/wiki/antd-mobile-0.8-%E4%BB%A5%E4%B8%8A%E7%89%88%E6%9C%AC%E3%80%8C%E9%AB%98%E6%B8%85%E3%80%8D%E6%96%B9%E6%A1%88%E8%AE%BE%E7%BD%AE)
 
 ### Build Setup
 

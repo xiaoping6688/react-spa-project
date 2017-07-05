@@ -1,7 +1,7 @@
-html, body {
+body {
   margin: 0;
   padding: 0;
-  background-color: #f3f3f3;
+  font-family: sans-serif;
 }
 
 /*路由切换动画——改变透明度*/

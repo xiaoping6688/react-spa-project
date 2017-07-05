@@ -28,7 +28,7 @@ class Home extends ViewComponent {
       <div className="Home">
         <div className="Home-header">
           <img src={logo} className="Home-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome To React</h2>
         </div>
         <p className="Home-intro">
           To get started, edit <code>src/*.js</code> and save to reload...

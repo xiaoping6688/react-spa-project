@@ -3,7 +3,7 @@
 
 **技术栈**
 
-- react.js（VM）
+- react.js（v15.6）
 - redux react-redux redux-trunk（状态管理）
 - react-router4（前端路由，组件异步加载、认证、过渡等）
 - immutable（优化、提升性能）
@@ -17,6 +17,11 @@
 > * 如果需要显示页面加载进度，推荐使用：[PACE](http://github.hubspot.com/pace/docs/welcome) 
 > * 如果需要日志收集、异常报告服务，推荐使用：[Sentry](https://sentry.io) 
 
+较新的学习文档
+> - [React Router4](https://reacttraining.cn/web/guides/quick-start)
+> - [Redux 中文文档](http://cn.redux.js.org/index.html)
+> - [React 官方文档](https://facebook.github.io/react/docs/hello-world.html)
+
 ### Build Setup
 
 ``` bash
@@ -28,4 +33,7 @@ npm start
 
 # build for production with minification
 npm run build
+
+# extract the configuration files of webpack
+npm run eject
 ```

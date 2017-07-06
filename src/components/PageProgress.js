@@ -6,6 +6,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 
+// 内联样式，方便动态控制
 const progressBarStyle = {
   position: 'fixed',
   zIndex: 100001,

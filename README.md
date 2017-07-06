@@ -8,6 +8,7 @@
 - react-router4（前端路由，组件异步加载、认证、过渡等）
 - immutable（优化、提升性能）
 - fetch（网络请求封装）
+- styled-components（css in js 方案）
 - antd（基于react的UI组件库[Ant Design Mobile](https://mobile.ant.design/index-cn)）
 - Webpack（工程化、自动构建）
 - [Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension)（支持Redux调试插件，非侵入式）

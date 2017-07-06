@@ -3,15 +3,17 @@
  */
 
 import React from 'react'
+import styled from 'styled-components'
 
-const pageStyle = {
-  fontSize: '28px'
-}
+// css in js
+const PageWrapper = styled.div`
+  font-size: 28px;
+`
 
 const NoMatch = ({ location }) => (
-  <div style={pageStyle}>
+  <PageWrapper>
     <h3>Not Found <code>{location.pathname}</code></h3>
-  </div>
+  </PageWrapper>
 )
 
 export default NoMatch

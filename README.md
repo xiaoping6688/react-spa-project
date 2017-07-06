@@ -16,6 +16,7 @@
 > * 如果需要服务端渲染(SSR)，推荐使用：[NEXT](https://github.com/zeit/next.js) 
 > * 如果需要显示页面加载进度，推荐使用：[PACE](http://github.hubspot.com/pace/docs/welcome) 
 > * 如果需要日志收集、异常报告服务，推荐使用：[Sentry](https://sentry.io) 
+> * 组织State中的范式化数据，可使用库：[normalizr](https://github.com/paularmstrong/normalizr)
 
 较新的学习文档
 > - [React Router4](https://reacttraining.cn/web/guides/quick-start)

@@ -5,6 +5,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+// import { RouteTransition } from 'react-router-transition' // you also can use presets of react-router-transition
 import { CSSTransitionGroup } from 'react-transition-group'
 
 import asyncComponent from './components/common/asyncComponent'

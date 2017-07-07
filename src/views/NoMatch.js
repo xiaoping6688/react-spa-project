@@ -4,6 +4,9 @@
 
 import React from 'react'
 import styled from 'styled-components'
+import { connect } from 'react-redux'
+
+import { setPageTransition } from '../stores/actions'
 
 // css in js
 const PageWrapper = styled.div`
@@ -12,7 +15,10 @@ const PageWrapper = styled.div`
 
 class NoMatch extends React.Component {
   componentDidMount () {
-    setTimeout(() => this.props.history.push('/'), 2500)
+    setTimeout(() => {
+      this.props.dispatch(setPageTransition('slide-right'))
+      this.props.history.push('/')
+    }, 2500)
   }
 
   render () {
@@ -25,4 +31,4 @@ class NoMatch extends React.Component {
   }
 }
 
-export default NoMatch
+export default connect()(NoMatch)

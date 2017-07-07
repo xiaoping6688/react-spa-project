@@ -24,7 +24,9 @@
 > - [Redux 中文文档](http://cn.redux.js.org/index.html)
 > - [React 官方文档](https://facebook.github.io/react/docs/hello-world.html)
 
-注：UI尺寸直接使用以750为基准的px(自动转rem)，参见[antd mobile「高清」方案设置](https://github.com/ant-design/ant-design-mobile/wiki/antd-mobile-0.8-%E4%BB%A5%E4%B8%8A%E7%89%88%E6%9C%AC%E3%80%8C%E9%AB%98%E6%B8%85%E3%80%8D%E6%96%B9%E6%A1%88%E8%AE%BE%E7%BD%AE)
+注：UI尺寸直接使用以750为基准的px(自动转rem)，参见[antd mobile「高清」方案设置](https://github.com/ant-design/ant-design-mobile/wiki/antd-mobile-0.8-%E4%BB%A5%E4%B8%8A%E7%89%88%E6%9C%AC%E3%80%8C%E9%AB%98%E6%B8%85%E3%80%8D%E6%96%B9%E6%A1%88%E8%AE%BE%E7%BD%AE) <br/>
+
+**如果你chrome安装了[Egret Inspector]（一款H5游戏引擎的调试插件），它可能会和[react-redux]冲突！**
 
 ### Build Setup
 

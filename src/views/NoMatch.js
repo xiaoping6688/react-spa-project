@@ -10,10 +10,19 @@ const PageWrapper = styled.div`
   font-size: 28px;
 `
 
-const NoMatch = ({ location }) => (
-  <PageWrapper>
-    <h3>Not Found <code>{location.pathname}</code></h3>
-  </PageWrapper>
-)
+class NoMatch extends React.Component {
+  componentDidMount () {
+    setTimeout(() => this.props.history.push('/'), 2500)
+  }
+
+  render () {
+    const { location } = this.props
+    return (
+      <PageWrapper>
+        <h3>Not Found <code>{location.pathname}</code></h3>
+      </PageWrapper>
+    )
+  }
+}
 
 export default NoMatch

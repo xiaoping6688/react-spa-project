@@ -20,7 +20,7 @@
 > * 组织State中的范式化数据，可使用库：[normalizr](https://github.com/paularmstrong/normalizr)
 
 较新的学习文档
-> - [React Router4](https://reacttraining.cn/web/guides/quick-start)
+> - [React Router4](https://reacttraining.com/react-router/web/example/basic)
 > - [Redux 中文文档](http://cn.redux.js.org/index.html)
 > - [React 官方文档](https://facebook.github.io/react/docs/hello-world.html)
 

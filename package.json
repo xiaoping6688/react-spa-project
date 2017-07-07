@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "antd-mobile": "^1.4.0",
+    "antd-mobile": "^1.4.1",
     "blueimp-md5": "^2.7.0",
     "es6-promise": "^4.1.0",
     "fastclick": "^1.0.6",
@@ -67,7 +67,7 @@
     "react-dev-utils": "^3.0.2",
     "react-error-overlay": "^1.0.9",
     "style-loader": "0.18.2",
-    "svg-sprite-loader": "^3.0.5",
+    "svg-sprite-loader": "^0.3.1",
     "sw-precache-webpack-plugin": "0.11.3",
     "url-loader": "0.5.9",
     "webpack": "2.6.1",

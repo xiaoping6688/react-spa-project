@@ -17,9 +17,10 @@ var FastClick = require('fastclick')
 FastClick.attach(document.body)
 
 // ES6 Promise 兼容polyfill
-if (!window.Promise) {
-  require('es6-promise').polyfill()
-}
+// if (!window.Promise) {
+//   require('es6-promise').polyfill()
+// }
+// @see config/polyfill.js
 
 // 根节点
 const Root = (
@@ -29,4 +30,4 @@ const Root = (
 )
 
 ReactDOM.render(Root, document.getElementById('root'))
-registerServiceWorker()
+registerServiceWorker() // service-worker.js由webpack自动生成

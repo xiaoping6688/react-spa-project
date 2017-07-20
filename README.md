@@ -10,6 +10,7 @@
 - fetch（网络请求封装）
 - styled-components（css in js 方案，语法高亮请使用[styled-babel-sublime](https://github.com/garetmckinley/styled-babel-sublime)）
 - antd（基于react的UI组件库[Ant Design Mobile](https://mobile.ant.design/index-cn)）
+- PWA (渐进式Web应用)
 - Webpack（工程化、自动构建）
 - [Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension)（支持Redux调试插件，非侵入式）
 
@@ -39,7 +40,4 @@ npm start
 
 # build for production with minification
 npm run build
-
-# extract the configuration files of webpack
-npm run eject
 ```

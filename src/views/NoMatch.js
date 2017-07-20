@@ -18,7 +18,7 @@ class NoMatch extends React.Component {
     setTimeout(() => {
       this.props.dispatch(setPageTransition('slide-right'))
       this.props.history.push('/')
-    }, 2500)
+    }, 2000)
   }
 
   render () {

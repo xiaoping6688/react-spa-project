@@ -2,7 +2,7 @@
  * HTTP数据通信模块
  */
 
-import 'whatwg-fetch'
+// import 'whatwg-fetch' // @see config/polyfill.js
 import qs from 'qs'
 
 // 缺省请求头

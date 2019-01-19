@@ -4,7 +4,7 @@
 **技术栈**
 
 - react.js（v15.6）
-- redux react-redux redux-trunk（状态管理）
+- redux react-redux redux-trunk（状态管理，异步action推荐使用redux-saga会更优雅些）
 - react-router4（前端路由，组件异步加载、认证、过渡等）
 - immutable（优化、提升性能）
 - fetch（网络请求封装）
